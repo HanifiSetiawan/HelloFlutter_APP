@@ -9,7 +9,7 @@ class ChildThree extends StatelessWidget {
       padding: EdgeInsets.all(20.0),
       width: double.infinity,
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 0, 0, 0),
+        color: Colors.blueGrey[900],
         borderRadius: BorderRadius.circular(20.0),
       ),
       child: Row(
@@ -28,8 +28,13 @@ class ChildThree extends StatelessWidget {
                       "Hanifi Abrar S",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
+                    SizedBox(height: 3),
                     Text("Fluttter Developer"),
-                    Text("www.hanifiabrar.com"),
+                    SizedBox(height: 3),
+                    Text(
+                      "www.hanifiabrar.com",
+                      style: TextStyle(fontStyle: FontStyle.italic),
+                    ),
                   ],
                 ),
               ),
