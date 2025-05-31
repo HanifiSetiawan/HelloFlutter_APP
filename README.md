@@ -1,16 +1,48 @@
-# helloflutter
+# HelloFlutter
 
-A new Flutter project.
+A simple Flutter app to demonstrate basic layout, widget composition, and styling.
+
+## Features
+
+- Custom AppBar with title and shadow
+- Responsive layout using `Column` and `Row`
+- Modular widget structure (`ChildOne`, `ChildTwo`, `ChildThree`)
+- Asset image usage
+- Themed backgrounds and text styles
+
+## Screenshots
+
+## Screenshots
+
+![App Screenshot](https://cdn.discordapp.com/attachments/945123026410831952/1378334442778787890/Screenshot_1748690909.png?ex=683c397b&is=683ae7fb&hm=3cba1e3d9cc74139027dcae28e28837d1fa5f3886e321dab7e2f64e333d1b7de&)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone this repository:**
 
-A few resources to get you started if this is your first Flutter project:
+   ```sh
+   git clone https://github.com/yourusername/helloflutter.git
+   cd helloflutter
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install dependencies:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```sh
+   flutter pub get
+   ```
+
+3. **Run the app:**
+   ```sh
+   flutter run
+   ```
+
+## Project Structure
+
+- `lib/main.dart` – Entry point, sets up the main app structure.
+- `lib/body.dart` – Main body layout, organizes child widgets.
+- `lib/child_one.dart`, `lib/child_two.dart`, `lib/child_three.dart` – Custom widgets for different sections of the UI.
+- `assets/images/` – App images.
+
+## Notes
+
+- Make sure you have Flutter installed. See the [Flutter docs
