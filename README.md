@@ -12,7 +12,7 @@ A simple Flutter app to demonstrate basic layout, widget composition, and stylin
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/945123026410831952/1378334442778787890/Screenshot_1748690909.png?ex=683c397b&is=683ae7fb&hm=3cba1e3d9cc74139027dcae28e28837d1fa5f3886e321dab7e2f64e333d1b7de&)
+<img src="https://cdn.discordapp.com/attachments/945123026410831952/1378334442778787890/Screenshot_1748690909.png?ex=683c397b&is=683ae7fb&hm=3cba1e3d9cc74139027dcae28e28837d1fa5f3886e321dab7e2f64e333d1b7de&" width="400"/>
 
 ## Getting Started
 
